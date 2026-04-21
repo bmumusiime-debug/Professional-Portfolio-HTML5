@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data | Professional Semantic Portfolio</title>
+    <meta name="description" content="Data page showing academic marks in a properly structured HTML table.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Academic Data</h1>
+        <p>A structured table showing sample first year academic performance.</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="data.html" aria-current="page">Data</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Semester One Academic Marks</h2>
+
+            <!-- The table uses head, body, foot, and scope attributes for clarity and accessibility. -->
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Course Unit</th>
+                        <th scope="col">Course Code</th>
+                        <th scope="col">Test Mark</th>
+                        <th scope="col">Exam Mark</th>
+                        <th scope="col">Final Mark</th>
+                        <th scope="col">Remark</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Web Design and Development</th>
+                        <td>BIT1203</td>
+                        <td>18</td>
+                        <td>55</td>
+                        <td>73</td>
+                        <td>Very Good</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Computer Applications</th>
+                        <td>BIT1201</td>
+                        <td>16</td>
+                        <td>51</td>
+                        <td>67</td>
+                        <td>Good</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Introduction to Programming</th>
+                        <td>BIT1202</td>
+                        <td>15</td>
+                        <td>49</td>
+                        <td>64</td>
+                        <td>Good</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Communication Skills</th>
+                        <td>GST1101</td>
+                        <td>17</td>
+                        <td>54</td>
+                        <td>71</td>
+                        <td>Very Good</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row" colspan="4">Average Final Mark</th>
+                        <td>69</td>
+                        <td>Good Performance</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MUMUSIIME BLESSING. Academic portfolio for Web Design and Development.</p>
+    </footer>
+</body>
+</html>
