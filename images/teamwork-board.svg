@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Teamwork Planning Board</title>
+  <desc id="desc">A planning board with sticky notes representing tasks shared in a web design group.</desc>
+  <rect width="640" height="420" fill="#edf6f9"/>
+  <rect x="70" y="50" width="500" height="300" rx="12" fill="#ffffff" stroke="#457b9d" stroke-width="6"/>
+  <rect x="110" y="95" width="115" height="95" fill="#ffd166"/>
+  <rect x="260" y="95" width="115" height="95" fill="#f4978e"/>
+  <rect x="410" y="95" width="115" height="95" fill="#b8e0a5"/>
+  <rect x="110" y="220" width="115" height="95" fill="#a8dadc"/>
+  <rect x="260" y="220" width="115" height="95" fill="#cdb4db"/>
+  <rect x="410" y="220" width="115" height="95" fill="#f1fa8c"/>
+  <text x="132" y="120" font-family="Georgia, serif" font-size="18" fill="#1d3557">Home</text>
+  <text x="282" y="120" font-family="Georgia, serif" font-size="18" fill="#1d3557">About</text>
+  <text x="424" y="120" font-family="Georgia, serif" font-size="18" fill="#1d3557">Gallery</text>
+  <text x="132" y="245" font-family="Georgia, serif" font-size="18" fill="#1d3557">Data</text>
+  <text x="282" y="245" font-family="Georgia, serif" font-size="18" fill="#1d3557">Contact</text>
+  <text x="430" y="245" font-family="Georgia, serif" font-size="18" fill="#1d3557">Review</text>
+  <line x1="210" y1="170" x2="260" y2="170" stroke="#6d6875" stroke-width="4"/>
+  <line x1="360" y1="170" x2="410" y2="170" stroke="#6d6875" stroke-width="4"/>
+  <line x1="210" y1="295" x2="260" y2="295" stroke="#6d6875" stroke-width="4"/>
+  <line x1="360" y1="295" x2="410" y2="295" stroke="#6d6875" stroke-width="4"/>
+</svg>
