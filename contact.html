@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Professional Semantic Portfolio</title>
+    <meta name="description" content="Contact page with an HTML5 form including labels, email, telephone, and message fields.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+        <p>Use the form below to send a short professional message.</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="data.html">Data</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Contact Form</h2>
+
+            <!-- Labels are linked to inputs so the form is easier to use and more accessible. -->
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+256 700 000000" required>
+                </p>
+
+                <p>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Send Message</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MUMUSIIME BLESSING. Academic portfolio for Web Design and Development.</p>
+    </footer>
+</body>
+</html>
