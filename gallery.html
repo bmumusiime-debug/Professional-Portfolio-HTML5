@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Professional Semantic Portfolio</title>
+    <meta name="description" content="Gallery page with accessible images, captions, and embedded media for a professional semantic portfolio.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gallery</h1>
+        <p>Selected visuals that represent learning, design, and growth.</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+            <li><a href="data.html">Data</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="gallery-grid">
+            <!-- Figure and figcaption provide a clear relationship between each image and its explanation. -->
+            <figure>
+                <img src="images/study-space.svg" alt="Illustration of a student study desk with a laptop, notebook, and cup representing daily web design practice.">
+                <figcaption>Study space used for practising HTML structure and page planning.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/layout-sketch.svg" alt="Simple page layout sketch showing header, navigation, main content, aside, and footer areas.">
+                <figcaption>Basic page layout sketch showing semantic website sections.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/teamwork-board.svg" alt="Illustration of a teamwork board with task notes representing collaboration in a web design group.">
+                <figcaption>Teamwork board showing how website tasks can be shared and organized.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Embedded Media</h2>
+            <p>The object below displays the design document used before coding the website.</p>
+
+            <!-- The object tag is used as permitted in the assignment instead of a video element. -->
+            <object data="design/design-document.svg" type="image/svg+xml" width="100%" height="520" aria-label="Embedded design document showing the portfolio sitemap and two wireframes.">
+                <p>Your browser could not display the embedded design document. You can open it directly using this <a href="design/design-document.svg">design document link</a>.</p>
+            </object>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MUMUSIIME BLESSING. Academic portfolio for Web Design and Development.</p>
+    </footer>
+</body>
+</html>
