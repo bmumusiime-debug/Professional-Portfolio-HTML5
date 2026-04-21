@@ -1,0 +1,143 @@
+/* Simple, readable styling chosen to keep the site appropriate for a Year One assignment. */
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+    color: #1f2933;
+    background-color: #f4f1ea;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1d3557;
+    color: #ffffff;
+    padding: 1.5rem;
+}
+
+nav {
+    background-color: #f1c27d;
+    padding: 0.75rem 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #12263a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+article,
+section,
+aside {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+figcaption {
+    margin-top: 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #b9c2cc;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+thead,
+tfoot {
+    background-color: #dbe9f4;
+}
+
+form p {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.35rem;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    max-width: 100%;
+    padding: 0.75rem;
+    font: inherit;
+    border: 1px solid #aab4be;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: auto;
+    background-color: #1d3557;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+footer {
+    padding: 1rem 1.5rem 2rem;
+}
+
+@media (max-width: 640px) {
+    nav li {
+        display: block;
+        margin: 0.35rem 0;
+    }
+}
